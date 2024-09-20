@@ -1,3 +1,4 @@
+
 user_input = input("Введіть 4-х значне число:")
 number = int(user_input)
 digit_4 = number%10
