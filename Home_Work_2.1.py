@@ -8,4 +8,3 @@ print (digit_1)
 print (digit_2)
 print (digit_3)
 print (digit_4)
-
