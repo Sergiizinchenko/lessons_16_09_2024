@@ -1,3 +1,4 @@
+
 from unicodedata import digit
 user_input = input("Введіть 5-ти значне число:")
 number = int(user_input)
