@@ -5,7 +5,3 @@ digit_3 = (number//10)%10
 digit_2 = (number//100)%10
 digit_1 = number//1000
 print (digit_1,digit_2,digit_3,digit_4,sep='\n')
-#print (digit_1)
-#print (digit_2)
-#print (digit_3)
-#print (digit_4)
