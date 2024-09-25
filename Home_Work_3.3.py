@@ -1,4 +1,4 @@
-lst_1 = [1, 3, 4, 5, 6, 7, 9, 5, 5, 6, 7, 8, 99, 1,2]
+lst_1 = [1,2,3]
 colindex_1 = len(lst_1)
 popolam_1 = int (colindex_1 / 2)
 zal_dil= colindex_1 % 2  #залишок від ділення
