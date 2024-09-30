@@ -7,11 +7,9 @@ j = 0
 kil_nuliv = first_list.count(0)#кількість нулів у списку
 while i < kil_nuliv:
     first_list.remove(0)  # проходимо по списку і видаляємо 0 зі списку
-    # print(first_list)
     i += 1
 while j < kil_nuliv:
     first_list.append(0)  # добавляємо  кількість 0 що було в кінець списку
-    #     print (first_list)
     j += 1
 print(first_list)
 
