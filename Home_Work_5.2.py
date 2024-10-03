@@ -15,6 +15,6 @@ while True:
         else:
             result = "ERROR - can't divide by zero"
     print(result)
-    umova = input("Введіть 'так', щоб повернутися на початок програми: ")
-    if umova.lower() not in ('yes', "Y", "y", "ye"):
+    umova = input("Введіть 'yes', щоб повернутися на початок програми: ")
+    if umova.lower() not in ("yes", "Y", "y", "ye"):
         break
