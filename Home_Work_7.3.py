@@ -2,10 +2,12 @@ def second_index(text, some_str):
   if len(some_str) >=2:
       ele = some_str
       i: int = text.index(ele)
+      print(i)
       new_text = (text[:i]+text[i+1:])
-  while:
-        i: int = text.index(some_str)
-         new_text = (text[:i] + text[i + 1:])
+  else:
+      ele = some_str
+      i: int = text.index(some_str)
+      new_text = (text[:i] + text[i + 1:])
   return new_text.index(ele)
 assert second_index("sims", "s") == 3, 'Test1'
 assert second_index("find the river", "e") == 12, 'Test2'
