@@ -1,6 +1,6 @@
 def second_index(text, some_str):
-  if len(some_str) >=2:
-      ele = some_str
+  if 2 == len(some_str):
+      ele = str(some_str)
       i: int = text.index(ele)
       print(i)
       new_text = (text[:i]+text[i+1:])
