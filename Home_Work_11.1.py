@@ -1,4 +1,10 @@
-yield num
+def prime_generator(end):
+    """Генерує прості числа до заданої межі, використовуючи yield."""
+
+    for num in range(2, end + 1):
+
+        if is_prime(num):
+            yield num
 
 
 # def is_prime(n):
@@ -60,6 +66,11 @@ assert list(prime_generator(29)) == [2, 3, 5, 7, 11, 13, 17, 19, 23, 29], 'Test3
 print('Ok')
 
 # Приклад використання: Генерація простих чисел до 100
+
+# for prime in prime_generator(10):
+
+#     print(prime)
+
 
 # for prime in prime_generator(10):
 
