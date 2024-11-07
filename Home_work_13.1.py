@@ -17,7 +17,6 @@ class Student(Human):
     def __str__(self):
         return f"{self.gender},{self.age},{self.first_name},{self.last_name},{self.record_book}"
 
-
 class Group:
 
     def __init__(self, number):
