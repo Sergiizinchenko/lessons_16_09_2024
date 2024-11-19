@@ -19,7 +19,6 @@ class Rectangle:
        return Rectangle(self.get_square(),n)
 
    def __str__(self):
-# print("(%f, %f)" % (self.width, self.height))
     return f"{self.get_square}"
 
 
